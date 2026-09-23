@@ -11,12 +11,6 @@ cask "cafehours" do
 
   app "CafeHours.app"
 
-  postflight do
-    # brew는 curl로 받아서 보통 quarantine이 안 붙지만, 혹시 붙어 있으면 Gatekeeper 경고를 피하려고 제거
-    system_command "/usr/bin/xattr",
-                    args: ["-dr", "com.apple.quarantine", "#{appdir}/CafeHours.app"],
-                    sudo: false
-  end
 
   zap trash: [
     "~/Library/Application Support/CafeHours",
