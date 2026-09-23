@@ -6,6 +6,7 @@ macOS 26 메뉴바 앱. 요일별 스케줄에 따라 화면 덮개를 닫아도
 
 ```
 brew tap rogiry/CafeHours
+brew trust --tap rogiry/cafehours
 brew install --cask cafehours
 ```
 
