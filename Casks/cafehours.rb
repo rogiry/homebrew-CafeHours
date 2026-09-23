@@ -1,6 +1,6 @@
 cask "cafehours" do
   version "0.1.0"
-  sha256 "REPLACE_WITH_SHA256_FROM_scripts/release.sh"
+  sha256 "c8413ad66998ee1d82e0feddda2987c0a1a7497ec9353d6e88f58e4932c52e5f"
 
   url "https://github.com/rogiry/homebrew-CafeHours/releases/download/v#{version}/CafeHours-#{version}.zip"
   name "CafeHours"
