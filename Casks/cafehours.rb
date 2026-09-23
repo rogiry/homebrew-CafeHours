@@ -7,7 +7,7 @@ cask "cafehours" do
   desc "메뉴바에서 전원 관리·덮개 모드 스케줄을 제어하는 macOS 앱"
   homepage "https://github.com/rogiry/homebrew-CafeHours"
 
-  depends_on macos: ">= :tahoe"
+  depends_on macos: :tahoe
 
   app "CafeHours.app"
 
