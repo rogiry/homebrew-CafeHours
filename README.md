@@ -2,6 +2,10 @@
 
 macOS 26 메뉴바 앱. 요일별 스케줄에 따라 화면 덮개를 닫아도 잠들지 않는 "덮개 모드"를 자동으로 켜고 끕니다.
 
+| 스케줄 | 설정 |
+|---|---|
+| ![스케줄 탭](screenshots/schedule.png) | ![설정 탭](screenshots/settings.png) |
+
 ## 설치
 
 ```
