@@ -11,7 +11,6 @@ cask "cafehours" do
 
   app "CafeHours.app"
 
-
   zap trash: [
     "~/Library/Application Support/CafeHours",
   ]
